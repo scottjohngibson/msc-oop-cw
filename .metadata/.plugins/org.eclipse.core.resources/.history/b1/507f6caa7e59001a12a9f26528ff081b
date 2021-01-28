@@ -1,0 +1,19 @@
+import static org.junit.Assert.*;
+
+import java.util.Arrays;
+
+import org.junit.jupiter.api.Test;
+
+class RandomArrayTest {
+
+	
+	@Test
+	void addStringTest() {
+		
+		RandomArray ra = new RandomArray();
+		ra.addString(null);
+		assertTrue(Arrays.asList(ra.internal).contains(null));
+	
+	}
+
+}

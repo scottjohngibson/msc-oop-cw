@@ -1,0 +1,21 @@
+
+public class RandomArray {
+
+	
+	public void addString(String s)
+	{
+		
+	}
+	
+	public String removeRandom()
+	{
+		return null;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

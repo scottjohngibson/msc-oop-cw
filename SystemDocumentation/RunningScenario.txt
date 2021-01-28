@@ -1,0 +1,24 @@
+PROJECT TITLE: CS994_CW
+SUBMISSION DATE: 16/12/2019
+AUTHOR: Scott Gibson
+
+Game Overview: To complete the game, the user must obtain the "Diamond" object. This object is located in the FightArea, which can only be accessed 
+by defeating a Troll who guards the area. The Troll itself can be beaten in two ways:
+
+1) It can instantly defeated by a player who holds both a Sword and a Shield. These items are themselves
+located within the PuzzleArea and GameArea respectively - each of these areas in turn also require the user to fulfill a task before being granted access.     
+2) It can be defeated by a player who holds only a Sword, provided that they use a Health Potion should they take any damage. The Health Potion is located
+in the LockedArea, which requires a Key object to unlock.
+
+Due to the random nature of the GameArea, the Running Scenario will show how the game can be won using the second approach.
+
+
+
+Running Scenario: Upon starting the game, the gameboard will be populated by several pre-determined areas (PuzzleArea, GameArea, FightArea, EmptyArea, LockedArea). 
+The running scenario will only show the player traversing & interacting with the required area/entities (as mentioned above) to successfully complete the game. This will roughly be as follows:
+
+Start Game --> 
+	       Move to PuzzleArea --> Complete Puzzle --> Get Sword --> 
+								        Find Key --> Unlock LockedArea --> Get HealthPotion -->
+															        Move to FightArea --> Fight Troll Once --> Use Health Potion --> Fight Troll Again/Defeat Troll --> Get Diamond --> WIN GAME!
+

@@ -1,0 +1,46 @@
+PROJECT TITLE: CS994_CW
+SUBMISSION DATE: 16/12/2019
+AUTHOR: Scott Gibson
+
+Goal: The aim of this project was to develop a text-based Adventure game in Java - utilising the Object-Orientated paradigm to 
+do so. The following additional requirements (in accordance with the "final requirements" MyPlace document) were deemed necessary/desirable in 
+fulfilling the project brief. 
+
+
+Additional Classes:
+
+- A "Game" class that contains the 5x5 "gameboard" array, provides game specific functionality (discussed below), and a method to implement a "running scenario" of the game.
+  
+  Functionality must:
+  - Allow the player to traverse the board (MoveWest, MoveSouth, etc.)
+  - Populate the gameboard with new areas, creatures, and items (On Starting/Restarting the game).
+  - Return area at specified index on gameboard (Assists in moving player).
+  - Return index of area or player's character (Assists in locating/moving player).
+  - Allow the player to add an item to their inventory (i.e. ArrayList of items).
+  - Allow the player to consume an item that will increase their health i.e. Health Potion.
+  - Enable the player to complete a puzzle
+  - Define the conditions to win the game
+
+- An abstract "Item" superclass - children include the specified "Key", "Shield", "Weapon", "HealthPotion", and "Diamond".
+  @ HealthPotion    An item that increases the players health.
+  @ Diamond         The "special item" that allows the user to win the game.
+
+- An abstract "LivingCreature" superclass - children include the player's character, the enemy character, "PuzzleMaster", and "GameMaster".
+- An abstract "FightingCreature" class was created to add "health" specific functionality to the "Enemy" character and player's character only.
+
+- An abstract "Area" superclass - children include "LockedArea", "FightArea", "PuzzleArea", "GameArea", and "EmptyArea". 
+- An "Unlockable" interface establishes enter conditions for initially-restricted areas (all except Empty Area).
+  @ EmptyArea      An area with no entry requirements (may still contain loot however).
+
+
+
+
+
+
+
+
+
+
+
+
+

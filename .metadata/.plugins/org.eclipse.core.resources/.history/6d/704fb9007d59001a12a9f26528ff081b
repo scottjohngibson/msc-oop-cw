@@ -1,0 +1,23 @@
+
+public class RandomArray {
+
+	private String[] internal;
+	
+	public void addString(String s)
+	{
+		
+	}
+	
+	public String removeRandom()
+	{
+		return null;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		RandomArrayTest rat = new RandomArrayTest();
+		rat.addStringTest();
+	}
+
+}

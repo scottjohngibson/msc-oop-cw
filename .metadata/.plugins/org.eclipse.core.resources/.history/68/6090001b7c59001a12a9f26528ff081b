@@ -1,0 +1,18 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class RandomArrayTest {
+
+	
+	@Test
+	void addStringTest() {
+		
+		RandomArray ra = new RandomArray();
+		ra.addString(null);
+		
+		assert
+		
+	}
+
+}
